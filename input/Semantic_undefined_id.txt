@@ -1,0 +1,30 @@
+class Utility {
+	integer c ;
+	Deep  dep;
+	integer findMax(integer array[100]) {
+			integer v ;
+	};
+};
+	
+class  Deep{
+};
+program {
+	Utility uti ; 
+	A a ;				// f1 not defined
+	integer num ;
+	
+	b = 2 ;    	     		// b not defined 
+	num = f1();      		// f1 not defined 
+	
+	num = uti.num ;  		// num is not defined in Utility
+	num = uti.func(); 	// func() is not defined in Utility
+	num = uti.dep.number ;  // number is not defined in deep
+	
+}; 
+
+integer func(integer max , integer min){
+	integer maxValue;
+	integer minValue;
+	maxValue = max;
+	minValue = min;
+}; 

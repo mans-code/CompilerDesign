@@ -1,0 +1,18 @@
+class A{
+
+};
+
+
+
+program{
+A dataType;
+A dtatType2;
+
+dtatType2 = f1(dataType);
+
+};
+
+A f1(A dataType){
+	return(dataType);
+};
+

@@ -1,0 +1,6 @@
+program {
+
+integer a ;
+read(a);
+
+};

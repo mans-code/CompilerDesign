@@ -1,0 +1,17 @@
+class A{
+integer a;
+integer b ;
+};
+program {
+	
+	
+	
+	A aclass;
+	integer a ;
+	A  arrayObject[10];
+	integer array1d[10];
+	integer array2d[10][10];
+	
+	a = aclass.b;
+	
+};

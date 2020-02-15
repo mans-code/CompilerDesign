@@ -1,0 +1,20 @@
+class Rational {
+	integer numerator;
+	integer denominator;
+	integer setNumerator(integer newNumerator)
+	{
+	numerator = newNumerator;
+};
+integer setDenominator(integer newDenominator)
+{
+	denominator = newDenominator;
+};
+};
+
+program {
+integer a;
+Rational r1;
+	a = r1.setNumerator(19.8);
+	a = r1.setNumerator(r1);
+	a = r1.setNumerator(2);
+};

@@ -1,0 +1,9 @@
+program{
+integer a;
+integer arr[10];
+
+a = arr[5+2];
+a = arr[4-2];
+a = arr[2/2];
+a = arr[2*1];
+};

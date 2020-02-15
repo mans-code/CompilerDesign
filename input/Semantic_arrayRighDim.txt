@@ -1,0 +1,7 @@
+program {
+	integer var ;
+	integer arry [10][10];
+	
+	var = arry[10];
+	var = arry[2][6];
+};

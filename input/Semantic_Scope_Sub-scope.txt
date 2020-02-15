@@ -1,0 +1,22 @@
+class Rational {
+	integer numerator;
+	integer denominator;
+integer setNumerator(integer newNumerator)
+{
+	numerator = newNumerator;     // numerator is not defined inside the function 
+	
+};
+integer setDenominator(integer newDenominator)
+{
+	integer denominator;           // denominator a re-declaration of an identifier, the local 
+						//                    definition overrides the higher-level one;
+						  
+	denominator = newDenominator;  
+};
+};
+
+program{
+
+
+
+};

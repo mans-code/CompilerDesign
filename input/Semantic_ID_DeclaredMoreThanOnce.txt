@@ -1,0 +1,24 @@
+class A {
+	integer c ;
+	integer c;
+	integer var;
+};
+	
+class  Deep{
+};
+
+class  Deep{
+};
+
+program{
+	integer var;
+
+};
+
+integer f1(){
+
+};
+
+integer f1(){
+	integer var;
+};

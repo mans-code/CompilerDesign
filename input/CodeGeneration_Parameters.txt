@@ -1,0 +1,11 @@
+program {
+ integer a;
+ 
+ a = f1(a + 1 , 2);
+};
+integer f1(integer a , integer b){
+	integer c ;
+	c = b + a;
+	
+	return(c);
+}

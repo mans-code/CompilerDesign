@@ -1,0 +1,7 @@
+program {
+
+integer a ;
+integer b;
+write(a + b);
+
+};

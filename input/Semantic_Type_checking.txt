@@ -1,0 +1,28 @@
+class A{
+
+};
+
+program {
+
+integer assignment ; 
+integer  a ; 
+integer b ;
+real cReal;
+A  aclass;
+ 
+ //  aclass is type A    while a and b are integer so we should get semantic error
+ 
+if(((a + b)   <> ( aclass) ) <=   ((cReal + 2) == (b + a)  )) then {}  
+else {};
+
+	aclass = f1();
+	
+	assignment = f1();
+	
+	assignment = cReal;
+};
+
+A f1(){
+	A a;
+	return (1);
+};

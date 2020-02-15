@@ -1,0 +1,10 @@
+class A {
+
+integer f1(integer a , integer b ){
+};
+};
+program {
+ integer a;
+  A aclass;
+ a = aclass.f1( 1 , 2);
+};

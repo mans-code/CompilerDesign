@@ -1,0 +1,14 @@
+program{
+
+integer a ; 
+real b ; 
+integer c;
+a = 1 + 1.02;
+
+if (b < c)then {}else{};
+
+};
+
+integer f1(){
+
+};

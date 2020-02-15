@@ -1,0 +1,13 @@
+program{
+integer idx;
+integer a;
+idx = 3;
+
+	if( idx < 3) then 
+	{ 
+		idx = 2;
+	}
+	else {
+ 		idx = 4; 
+ 		};
+}; 

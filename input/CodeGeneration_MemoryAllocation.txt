@@ -1,0 +1,10 @@
+class A{
+integer b;
+integer c;
+};
+
+program {
+A a ;
+integer intNum;
+real    realNum;
+};

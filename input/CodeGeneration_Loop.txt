@@ -1,0 +1,11 @@
+program{
+integer a;
+integer b ;
+a =10;
+
+while (a > 0 ) do {
+	b = 2;
+	a = a -1;
+};
+
+};
