@@ -24,9 +24,9 @@ Operators, punctuation and reserved words <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	return	program <br>
 	
 Grammar <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<prog> ::= <classDecl>*<progBody> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<classDecl> ::= class id {<varDecl>*<funcDef>*}; <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<progBody> ::= program<funcBody>;<funcDef>* <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	prog		::= <classDecl>*<progBody> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	classDecl 	::= class id {<varDecl>*<funcDef>*}; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	progBody  	::= program<funcBody>;<funcDef>* <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<funcHead> ::= <type>id(<fParams>) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<funcDef> ::= <funcHead><funcBody>; <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<funcBody> ::= {<varDecl>*<statement>*} <br>
@@ -60,9 +60,9 @@ Grammar <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<fParamsTail> ::= ,<type>id<arraySize>* <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<aParamsTail> ::= ,<expr> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Operators and additional lexical conventions   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<assignOp> ::= =   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<relOp> ::= == | <> | < | > | <= | >= <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<addOp> ::= + | - | or <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<multOp> ::= * | / | and <br>
+Operators and additional lexical conventions   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	assignOp ::= =   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	relOp ::= == | <> | < | > | <= | >= <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	addOp ::= + | - | or <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	multOp ::= * | / | and <br>
 
