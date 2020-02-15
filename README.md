@@ -1,7 +1,7 @@
 					<h1>Compiler Design</h1>
 			
 Atomic lexical elements of the language <br>
-	id ::= letter alphanum* <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	id ::= letter alphanum* <br>
 	alphanum ::= letter | digit | _<br>
 	num ::= integer | float <br>
 	integer ::= nonzero digit* | 0 <br>
@@ -23,47 +23,46 @@ Operators, punctuation and reserved words <br>
 	. 	// 	put <br>
 	return	program <br>
 	
-Grammar
-	<prog> ::= <classDecl>*<progBody>
-	<classDecl> ::= class id {<varDecl>*<funcDef>*};
-	<progBody> ::= program<funcBody>;<funcDef>*
-	<funcHead> ::= <type>id(<fParams>)
-	<funcDef> ::= <funcHead><funcBody>;
-	<funcBody> ::= {<varDecl>*<statement>*}
-	<varDecl> ::= <type>id<arraySize>*;
-	<statement> ::= <assignStat>;
-	| if(<expr>)then<statBlock>else<statBlock>;
-	| for(<type>id<assignOp><expr>;<relExpr>;<assignStat>)<statBlock>;
-	| get(<variable>);
+Grammar <br>
+	<prog> ::= <classDecl>*<progBody> <br>
+	<classDecl> ::= class id {<varDecl>*<funcDef>*}; <br>
+	<progBody> ::= program<funcBody>;<funcDef>* <br>
+	<funcHead> ::= <type>id(<fParams>) <br>
+	<funcDef> ::= <funcHead><funcBody>; <br>
+	<funcBody> ::= {<varDecl>*<statement>*} <br>
+	<varDecl> ::= <type>id<arraySize>*; <br>
+	<statement> ::= <assignStat>; <br>
+	| if(<expr>)then<statBlock>else<statBlock>; <br>
+	| for(<type>id<assignOp><expr>;<relExpr>;<assignStat>)<statBlock>; <br>
+	| get(<variable>); <br>
 	| put(<expr>);
-	| return(<expr>);
-	<assignStat> ::= <variable><assignOp><expr>
-	<statBlock> ::= {<statement>*} | <statement> | 
-	<expr> ::= <arithExpr> | <relExpr>
-	<relExpr> ::= <arithExpr><relOp><arithExpr>
-	<arithExpr> ::= <arithExpr><addOp><term> | <term>
-	<sign> ::= + | -
-	<term> ::= <term><multOp><factor> | <factor>
-	<factor> ::= <variable>
-	| <idnest>*id(<aParams>)
-	| num
-	| (<arithExpr>)
-	| not<factor>
-	| <sign><factor>
-	<variable> ::= <idnest>*id<indice>*
-	<idnest> ::= id<indice>*.
-	<indice> ::= [<arithExpr>]
-	<arraySize> ::= [ integer ]
-	<type> ::= int | float | id
-	<fParams> ::= <type>id<arraySize>*<fParamsTail>* | 
-	<aParams> ::= <expr><aParamsTail>* | 
-	<fParamsTail> ::= ,<type>id<arraySize>*
-	<aParamsTail> ::= ,<expr>
+	| return(<expr>); <br>
+	<assignStat> ::= <variable><assignOp><expr> <br>
+	<statBlock> ::= {<statement>*} | <statement> |    <br>
+	<expr> ::= <arithExpr> | <relExpr>   <br>
+	<relExpr> ::= <arithExpr><relOp><arithExpr>   <br> 
+	<arithExpr> ::= <arithExpr><addOp><term> | <term> <br>
+	<sign> ::= + | -  <br>
+	<term> ::= <term><multOp><factor> | <factor> <br>
+	<factor> ::= <variable> <br>
+	| <idnest>*id(<aParams>) <br>
+	| num   <br>
+	| (<arithExpr>) <br>
+	| not<factor> <br>
+	| <sign><factor> <br> 
+	<variable> ::= <idnest>*id<indice>* <br>
+	<idnest> ::= id<indice>*.  <br>
+	<indice> ::= [<arithExpr>] <br>
+	<arraySize> ::= [ integer ] <br>
+	<type> ::= int | float | id <br>
+	<fParams> ::= <type>id<arraySize>*<fParamsTail>* |  <br>
+	<aParams> ::= <expr><aParamsTail>* |   <br>
+	<fParamsTail> ::= ,<type>id<arraySize>* <br>
+	<aParamsTail> ::= ,<expr> <br>
 
-Operators and additional lexical conventions
-	<assignOp> ::= =
-	<relOp> ::= == | <> | < | > | <= | >=
-	<addOp> ::= + | - | or
-	<multOp> ::= * | / | and
-	id ::= follows specification for identifiers found in assignment#1
+Operators and additional lexical conventions   <br>
+	<assignOp> ::= =   <br>
+	<relOp> ::= == | <> | < | > | <= | >= <br>
+	<addOp> ::= + | - | or <br>
+	<multOp> ::= * | / | and <br>
 
