@@ -61,7 +61,7 @@ Grammar <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aParamsTail ::= ,<expr> <br>
 
 Operators and additional lexical conventions   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	assignOp ::=  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	=   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	assignOp ::=  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=   <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	relOp ::= 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; == | <> | < | > | <= | >= <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	addOp ::= 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + | - | or <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	multOp ::= 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * | / | and <br>
