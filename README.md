@@ -57,12 +57,12 @@ Grammar <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<type> ::= int | float | id <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<fParams> ::= <type>id<arraySize>*<fParamsTail>* |  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<aParams> ::= <expr><aParamsTail>* |   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<fParamsTail> ::= ,<type>id<arraySize>* <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<aParamsTail> ::= ,<expr> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	fParamsTail ::= ,<type>id<arraySize>* <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aParamsTail ::= ,<expr> <br>
+
 Operators and additional lexical conventions   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	assignOp ::= =   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	relOp ::= == | <> | < | > | <= | >= <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	addOp ::= + | - | or <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	multOp ::= * | / | and <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	assignOp ::=  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	=   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	relOp ::= 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; == | <> | < | > | <= | >= <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	addOp ::= 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + | - | or <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	multOp ::= 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * | / | and <br>
 
