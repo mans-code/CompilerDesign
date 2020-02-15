@@ -67,6 +67,4 @@ Operators and additional lexical conventions
 	&lt;relOp&gt; ::= == | &lt;&gt; | &lt; | &gt; | &lt;= | &gt;=
 	&lt;addOp&gt; ::= + | - | or
 	&lt;multOp&gt; ::= * | / | and
-	id ::= follows specification for identifiers found in assignment#1
-
 </pre>
