@@ -1,5 +1,5 @@
-				Design and implement
-
+					<h1>Compiler Design</h1>
+			
 Atomic lexical elements of the language
 	id ::= letter alphanum*
 	alphanum ::= letter | digit | _
@@ -10,8 +10,7 @@ Atomic lexical elements of the language
 	letter ::= a..z |A..Z
 	digit ::= 0..9
 	nonzero ::= 1..9
-
-
+	
 Operators, punctuation and reserved words
 	== 	+ 	( 	if
 	<> 	- 	) 	then
@@ -23,7 +22,7 @@ Operators, punctuation and reserved words
 	, 	or 	*/	 get
 	. 	// 	put
 	return	program
-
+	
 Grammar
 	<prog> ::= <classDecl>*<progBody>
 	<classDecl> ::= class id {<varDecl>*<funcDef>*};
