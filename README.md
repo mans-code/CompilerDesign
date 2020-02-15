@@ -1,27 +1,27 @@
 					<h1>Compiler Design</h1>
 			
-Atomic lexical elements of the language
-	id ::= letter alphanum*
-	alphanum ::= letter | digit | _
-	num ::= integer | float
-	integer ::= nonzero digit* | 0
+Atomic lexical elements of the language <br>
+	id ::= letter alphanum* <br>
+	alphanum ::= letter | digit | _<br>
+	num ::= integer | float <br>
+	integer ::= nonzero digit* | 0 <br>
 	float ::= integer fraction
-	fraction ::= .digit* nonzero | .0
-	letter ::= a..z |A..Z
-	digit ::= 0..9
-	nonzero ::= 1..9
+	fraction ::= .digit* nonzero | .0 <br>
+	letter ::= a..z |A..Z <br>
+	digit ::= 0..9 <br>
+	nonzero ::= 1..9 <br>
 	
-Operators, punctuation and reserved words
-	== 	+ 	( 	if
-	<> 	- 	) 	then
-	< 	* 	{ 	else
-	> 	/ 	} 	for
-	<=	=	[ 	class
-	>= 	and 	] 	int
-	;	not 	/* 	float
-	, 	or 	*/	 get
-	. 	// 	put
-	return	program
+Operators, punctuation and reserved words <br>
+	== 	+ 	( 	if <br>
+	<> 	- 	) 	then <br>
+	< 	* 	{ 	else <br>
+	> 	/ 	} 	for <br> 
+	<=	=	[	class <br>
+	>= 	and 	] 	int <br>
+	;	not 	/* 	float <br>
+	, 	or 	*/	 get <br>
+	. 	// 	put <br>
+	return	program <br>
 	
 Grammar
 	<prog> ::= <classDecl>*<progBody>
